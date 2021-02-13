@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+    <form action='/validate' method='POST'>
+        Name: <input type='text' placeholder='Name' name='Name'><br><br>
+        Email: <input type='email' placeholder='Email' name='Email'><br><br>
+        <input type='checkbox'  name='check' value="Subscribe to the News Letter" checked>Subscribe to the News Letter<br><br>
+        Format of the Email:<br><br>
+        <input type='radio'  name='radio' value="HTML" checked>HTML<br>
+        <input type='radio'  name='radio' value="Plian Text">Plain Text<br><br>
+        Type of subscription yo want:<br>
+        <select name="drop">
+            <option value="Standard-Free">Standard-Free</option>
+            <option value="Booked-Free">Booked-Free</option>
+            <option >Others</option>
+        </select><br><br>
+        Comment to the Editor:<br>
+        <textarea name="textarea"></textarea><br>
+        <button type='submit'> Submit</button></form>
+</body>
+</html>

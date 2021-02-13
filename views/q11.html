@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+    <form action='/validate' method='POST'>
+        <table>
+            <tr>
+                
+                <td>Account type:</td>
+                <td><input type='radio'  name='radio' value="Individual" checked>Individual<br>
+                    <input type='radio'  name='radio' >entity<br><br></td>
+            </tr>
+            <tr>
+                <td> First Name:</td>
+                <td><input type='text'  name='firstname'></td>
+            </tr>
+            <tr>
+                <td>MiddleName or Initials:</td>
+                <td><input type='text'  name='middlename'></td>
+            </tr>
+            <tr>
+                <td>LastName:</td>
+                <td><input type='text'  name='lastname'></td>
+            </tr>
+            <tr>
+                <td>Suffix:</td>
+                <td><select name='suffix'><option>--</option>
+                <option>V</option></select></td>
+            </tr>
+            <tr>
+                <td>Telephone Identification Number:</td>
+                <td><input type='text' size='2'  name='ph'> - 
+                <input type='text' size='2'  name='ph'> -
+                <input type='text' size='2'  name='ph'></td> 
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type='text' size='2'  name='dob'> - 
+                <input type='text' size='2'  name='dob'> -
+                <input type='text' size='2'  name='dob'>(MM-DD-YYYY)</td> 
+            </tr>
+            <tr>
+                <td>Street Address:</td>
+                <td><input type='text'  name='sa'><br>
+                    <input type='text'  name='sa'><br>
+                    <input type='text'  name='sa'></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type='text'  name='city'></td>
+            </tr>
+            <tr>
+                <td>State:</td>
+                <td><select name='state'><option>--</option>
+                <option>TamilNadu</option></select></td>
+            </tr>
+            <tr>
+                <td>Zip Code:</td>
+                <td><input type='text' size='2'  name='zc'> - 
+                <input type='text' size='2'  name='zc'> (Plus Four-Optional)</td> 
+            </tr>
+            <tr>
+                <td>Home Phone:</td>
+                <td><input type='text' size='2'  name='hp'> - 
+                <input type='text' size='2'  name='hp'> -
+                <input type='text' size='2'  name='hp'></td> 
+            </tr>
+            <tr>
+                <td> Driver's License/State Id Number:</td>
+                <td><input type='text'  name='license'></td>
+            </tr>
+            <tr>
+                <td>Issuing State:</td>
+                <td><select name='is'><option>--</option>
+                <option>Tamilnadu</option></select></td>
+            </tr>
+            <tr>
+                <td>Expiration Date:</td>
+                <td><input type='text' size='2'  name='ed'> - 
+                <input type='text' size='2'  name='ed'> -
+                <input type='text' size='2'  name='ed'>(MM-DD-YYYY)</td> 
+            </tr>
+        </table>
+        <button type='submit'> Submit</button>
+    </form>
+</body>
+</html>
